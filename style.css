@@ -1,0 +1,178 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.container1 {
+    display: flex;
+    gap: 8px;
+    padding: 16px;
+    padding-left: 180px;
+}
+
+.logo {
+    color: #F9FAF8;
+    size: 24px;
+    flex:0.6;
+}
+
+.links {
+    float:right;
+    size: 8px;
+    color: #e5e7eb;
+    flex: 0.08;
+    text-decoration: none;
+}
+
+/* header after nav */
+
+.container2 {
+    display: flex;
+    padding: 16px;
+    padding-left: 180px;
+    padding-right: 280px;
+}
+
+.textbox{
+    flex: 0.5;
+    height: 200px;
+    padding: 4%;
+    padding-top: 4%;
+}
+
+.imagebox{
+    background-color: grey;
+    flex: 0.5;
+    text-align: center;
+    padding: 4%;
+    padding-top: 9%;
+    color: white;
+}
+
+.subcont1 {
+    size: 48px;
+    font-weight: bold ;
+    color:#F9FAF8;
+}
+
+.subcont1text {
+    color: white;
+    size: 18px;
+}
+
+.button {
+    background-color: royalblue;
+    color: white;
+    border-radius: 7px;
+}
+
+/* 2 block - block below header */
+
+.bodytext {
+    size: 36px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+.rowOfBoxes{
+    display: flex;
+    gap: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    
+}
+
+.box {
+    flex: 1;
+    border: royalblue solid 4px;
+    height: 200px;
+    border-radius: 7px;
+}
+
+.rowtextbox{
+    display: flex;
+    gap: 60px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 0px;
+}
+
+.textboxes {
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+/* third block */
+
+.greybox  {
+    background-color: #e5e7eb;
+    height: 170px;
+    padding-top: 50px;
+    padding-left: 33%;
+    padding-right: 36%;
+    padding-bottom: 50px;
+}
+
+.quoteText {
+    font-size: 28px;
+    font-style: italic;
+    color: #1F2937;
+    width: 600px;
+}
+
+.author {
+    float: right;
+    font-weight: bold;
+}
+
+/* fourth block */
+
+.container4{
+    background-color: white;
+    height: 170px;
+}
+
+.bluebox {
+    background-color: #3882f6;
+    margin: 4em;
+    border-radius: 7px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.blueboxtext1{
+    font-weight: bold;
+}
+
+
+.button1 {
+    color: white;
+    border-radius: 7px;
+    background-color: #3882f6;
+    border-color: white;
+    flex: 0.2;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    height: 60px;
+    border-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
